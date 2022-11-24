@@ -99,7 +99,7 @@ const ProviderForm = ({ provider }: ProviderFormProps) => {
       <Box justifyContent="flex-end" mt="2" mx="3">
         <Button bgColor="#753A88" onPress={handleSubmit} disabled={isLoading}>
           <Text color="white">
-            {provider ? "Actualizar provedor" : "Agregar provedor"}
+            {provider ? "Actualizar proveedor" : "Agregar proveedor"}
           </Text>
         </Button>
       </Box>

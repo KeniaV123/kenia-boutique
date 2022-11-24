@@ -63,7 +63,7 @@ const ProvidersList = () => {
   return (
     <ItemsList
       list={data}
-      title="Provedores"
+      title="Proveedores"
       onAddClick={moveToProviderCreate}
     />
   );

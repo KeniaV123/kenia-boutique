@@ -36,7 +36,7 @@ const StoreUpdateView = ({ route, navigation }: any) => {
 
   return (
     <View px="4" py="3" h="100%">
-      <Text fontSize="2xl">Acturalizar tienda</Text>
+      <Text fontSize="2xl">Actualizar tienda</Text>
 
       <StoreForm store={currentStore} />
     </View>

@@ -34,7 +34,7 @@ const ProductUpdateView = ({ route, navigation }: any) => {
 
   return (
     <View px="4" py="3" h="100%">
-      <Text fontSize="2xl">Acturalizar producto</Text>
+      <Text fontSize="2xl">Actualizar producto</Text>
 
       <ProductForm
         product={currentProduct as ProductWithProvider | undefined}

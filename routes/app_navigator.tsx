@@ -221,7 +221,7 @@ const AppNavigator = () => (
         name="provider_detail"
         component={ProviderView}
         options={{
-          headerTitle: "Detalle de provedor",
+          headerTitle: "Detalle de proveedor",
           headerBackground: () => (
             <LinearGradient
               colors={["#CC2B5E", "#753A88"]}
@@ -241,7 +241,7 @@ const AppNavigator = () => (
         name="provider_create"
         component={ProviderCreateView}
         options={{
-          headerTitle: "Crear provedor",
+          headerTitle: "Crear proveedor",
           headerBackground: () => (
             <LinearGradient
               colors={["#CC2B5E", "#753A88"]}
@@ -261,7 +261,7 @@ const AppNavigator = () => (
         name="provider_update"
         component={ProviderUpdateView}
         options={{
-          headerTitle: "Editar provedor",
+          headerTitle: "Editar proveedor",
           headerBackground: () => (
             <LinearGradient
               colors={["#CC2B5E", "#753A88"]}

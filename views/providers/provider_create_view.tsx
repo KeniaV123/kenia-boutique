@@ -4,7 +4,7 @@ import ProviderForm from "./provider_form";
 const ProviderCreateView = () => {
   return (
     <View px="4" py="3" h="100%">
-      <Text fontSize="2xl">Agregar un nuevo provedor</Text>
+      <Text fontSize="2xl">Agregar un nuevo proveedor</Text>
 
       <ProviderForm />
     </View>
